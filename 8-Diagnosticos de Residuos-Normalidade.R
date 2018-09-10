@@ -43,7 +43,7 @@ hist(residuosAR2, main = "Histograma dos Residuos", col="Gray",breaks = 20,
      xlim =c(-0.15,0.15)  )  
 
            #Incluindo larguras de janelas diversas
-lines(density(residuosAR2, bw=0.02),col="Blue")    #h=0.02
+lines(density(residuosar2, bw=0.02),col="Blue")    #h=0.02
 lines(density(residuosAR2, bw=0.01),col="Red")     #h=0.01
 lines(density(residuosAR2, bw=0.005),col="Yellow") #h=0.005
 
